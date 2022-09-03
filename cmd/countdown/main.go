@@ -70,7 +70,7 @@ func sec2Human(insec int) string {
 		retv = fmt.Sprintf("%02d:", hours)
 	}
 
-	if minutes > 0  {
+	if minutes > 0 {
 		retv = fmt.Sprintf("%s%02d:", retv, minutes)
 	} else if (minutes == 0) && (hours > 0) {
 		retv = fmt.Sprintf("%s00:", retv)
